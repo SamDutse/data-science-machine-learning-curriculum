@@ -1,0 +1,23 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Data and models (keep large files out of Git)
+*.csv
+*.zip
+*.h5
+*.keras
+*.pkl
+*.joblib
+data/
+datasets/
+
+# Course material (never commit course videos or notebooks)
+ztm/
+*.mp4
+*.mkv
+
+.DS_Store
